@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+HP
+[Mesh Cells]
+208,008
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:yagi_final.cst?da8a4e6e5ad76e3b9844619350895c7e?11826:numberofparameters=0:port=1>mode=1>zre=0>zim=0
+[Comment]

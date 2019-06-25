@@ -1,0 +1,381 @@
+
+Solver started at: 11:33 PM Monday, 11. March 2019
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2016.0 Release from 2016-01-22 (change 414946)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at discrete port 1 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: cm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 4
+      Number of calculation domains used: 4
+
+   2019 Mar 11: 23:33:56: current system memory usage reached 50%
+   PBA fill limit: 98.07% (inverse)
+   2019 Mar 11: 23:33:57: current system memory usage reached 50%
+
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 3.64526 cm
+  Xmax: expanded open, 4 Layer, depth 3.64526 cm
+
+  Ymin: expanded open, 4 Layer, depth 3.64526 cm
+  Ymax: expanded open, 4 Layer, depth 3.64526 cm
+
+  Zmin: expanded open, 4 Layer, depth 3.64526 cm
+  Zmax: expanded open, 4 Layer, depth 3.64526 cm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:         0
+  Fmax:         2
+  Nfsteps(lin): 1001
+
+--------------------------------------------------------------------------------
+Port: 1
+
+  Discrete element, reference impedance = 50 ohms
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	1287821
+  Number of TST elements:		120
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  CAD preparation     18444                         4484760      4484760      
+  Matrices calc.      197460                        4467976      4309564      
+  Solver run total    71600                         4505688      4313360      
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	ROOBHA 
+
+     Number of CPU threads:             4
+     Hardware info:                  	Hardware acceleration not activated
+
+  Number of mesh cells:             	208008
+  Excitation duration:              	1.77727437e+000 ns 
+  Calculation time for excitation:  	5      	s
+  Number of calculated pulse widths:	9.84116 
+  Steady state accuracy limit:      	-50	dB 
+  Simulated number of time steps:   	10506  
+  Maximum number of time steps:     	21351  
+  Time step width:
+     without subcycles:             	1.66480505e-003 ns
+     used:                          	1.66480505e-003 ns
+
+  CAD preparation time:          	0      	s
+  Matrix calculation time:          	7      	s
+  Solver setup time:                	1      	s
+  Solver loop time:                 	46     	s
+  Solver post processing time:      	1      	s
+                                    	------------
+  Total solver time:                	55     	s
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	0      	s
+  Total solver time (all cycles):   	55     	s
+                                    	------------
+  Total simulation time:            	55     	s
+
+--------------------------------------------------------------------------------
+Solver finished at: 11:34 PM Monday, 11. March 2019
+
+
+--------------------------------------------------------------------------------
+
+Solver started at: 12:03 AM Tuesday, 12. March 2019
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2016.0 Release from 2016-01-22 (change 414946)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at discrete port 1 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: cm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 3.64526 cm
+  Xmax: expanded open, 4 Layer, depth 3.64526 cm
+
+  Ymin: expanded open, 4 Layer, depth 3.64526 cm
+  Ymax: expanded open, 4 Layer, depth 3.64526 cm
+
+  Zmin: expanded open, 4 Layer, depth 3.64526 cm
+  Zmax: expanded open, 4 Layer, depth 3.64526 cm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:         0
+  Fmax:         2
+  Nfsteps(lin): 1001
+
+--------------------------------------------------------------------------------
+Port: 1
+
+  Discrete element, reference impedance = 50 ohms
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	1287821
+  Number of TST elements:		120
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  CAD preparation     18444                         4484760      4484760      
+  Matrices calc.      197460                        4467976      4309564      
+  Solver run total    69044                         4359292      4316236      
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	ROOBHA 
+
+     Number of CPU threads:             4
+     Hardware info:                  	Hardware acceleration not activated
+
+  Number of mesh cells:             	208008
+  Excitation duration:              	1.77727437e+000 ns 
+  Calculation time for excitation:  	5      	s
+  Number of calculated pulse widths:	15.6694 
+  Steady state accuracy limit:      	-80	dB 
+  Simulated number of time steps:   	16728  
+  Maximum number of time steps:     	21351  
+  Time step width:
+     without subcycles:             	1.66480505e-003 ns
+     used:                          	1.66480505e-003 ns
+
+  Reloading matrices:               	0      	s
+  Solver setup time:                	2      	s
+  Solver loop time:                 	77     	s
+  Solver post processing time:      	0      	s
+                                    	------------
+  Total solver time:                	79     	s  ( = 0 h, 1 m, 19 s )
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	0      	s
+  Total solver time (all cycles):   	79     	s  ( = 0 h, 1 m, 19 s )
+                                    	------------
+  Total simulation time:            	79     	s  ( = 0 h, 1 m, 19 s )
+
+--------------------------------------------------------------------------------
+Solver finished at: 12:05 AM Tuesday, 12. March 2019
+
+
+--------------------------------------------------------------------------------
+
+Solver started at: 06:02 PM Tuesday, 12. March 2019
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2016.0 Release from 2016-01-22 (change 414946)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at discrete port 1 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: cm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 3.64526 cm
+  Xmax: expanded open, 4 Layer, depth 3.64526 cm
+
+  Ymin: expanded open, 4 Layer, depth 3.64526 cm
+  Ymax: expanded open, 4 Layer, depth 3.64526 cm
+
+  Zmin: expanded open, 4 Layer, depth 3.64526 cm
+  Zmax: expanded open, 4 Layer, depth 3.64526 cm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:         0
+  Fmax:         2
+  Nfsteps(lin): 1001
+
+--------------------------------------------------------------------------------
+Port: 1
+
+  Discrete element, reference impedance = 50 ohms
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	1287821
+  Number of TST elements:		120
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  CAD preparation     18444                         4484760      4484760      
+  Matrices calc.      197460                        4467976      4309564      
+  Solver run total    68880                         4690672      4544540      
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	ROOBHA 
+
+     Number of CPU threads:             4
+     Hardware info:                  	Hardware acceleration not activated
+
+  Number of mesh cells:             	208008
+  Excitation duration:              	1.77727437e+000 ns 
+  Calculation time for excitation:  	6      	s
+  Number of calculated pulse widths:	15.6694 
+  Steady state accuracy limit:      	-80	dB 
+  Simulated number of time steps:   	16728  
+  Maximum number of time steps:     	21351  
+  Time step width:
+     without subcycles:             	1.66480505e-003 ns
+     used:                          	1.66480505e-003 ns
+
+  Reloading matrices:               	0      	s
+  Solver setup time:                	2      	s
+  Solver loop time:                 	96     	s
+  Solver post processing time:      	1      	s
+                                    	------------
+  Total solver time:                	99     	s  ( = 0 h, 1 m, 39 s )
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	0      	s
+  Total solver time (all cycles):   	99     	s  ( = 0 h, 1 m, 39 s )
+                                    	------------
+  Total simulation time:            	99     	s  ( = 0 h, 1 m, 39 s )
+
+--------------------------------------------------------------------------------
+Solver finished at: 06:04 PM Tuesday, 12. March 2019
+
+
+--------------------------------------------------------------------------------
